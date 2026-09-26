@@ -1,13 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My Website</title>
-</head>
-<body>
+```javascript
+// Get heading element
+const heading = document.getElementById("heading");
 
-    <h1 id="heading">Hello World</h1>
-    <button onclick="changeText()">Click Me</button>
+// Button click function
+function changeText() {
+    heading.innerHTML = "Welcome to My Website!";
+}
 
-    <script src="script.js"></script>
-</body>
-</html>
+// Change background color
+function changeBackground() {
+    document.body.style.backgroundColor = "lightblue";
+}
+
+// Show alert message
+function showMessage() {
+    alert("Hello! Welcome to my website.");
+}
+```
